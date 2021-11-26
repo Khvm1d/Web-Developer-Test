@@ -130,6 +130,10 @@ a {
     display: inline-block; }
   .nav .small-logo {
     display: none; }
+  .small-logo2{
+    position: relative;
+    left: 134px;
+  }
   @media (max-width: 768px) {
     .nav {
       height: 4.125rem;
@@ -139,11 +143,15 @@ a {
         display: none; }
       .nav .small-logo {
         display: inline-block; }
+      .small-logo2{
+        position: relative;
+        left: 0;}
       .nav__menu-links a {
         font-size: 0.875rem; } }
 
 .subscribe .title {
-  margin-bottom: 0.93rem; }
+  margin-bottom: 0.93rem;
+  margin-top: 20px;}
 
 .subscribe .subtitle {
   margin-bottom: 3.125rem; }
